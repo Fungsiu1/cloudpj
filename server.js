@@ -6,7 +6,7 @@ const app = express();
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const ObjectId = require('mongodb').ObjectID;
-const mongodburl = 'mongodb://123:123@cluster0-shard-00-00-ebdqh.mongodb.net:27017,cluster0-shard-00-01-ebdqh.mongodb.net:27017,cluster0-shard-00-02-ebdqh.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority';
+const mongodburl = 'mongodb+srv://user:123@cluster0-tqk8y.mongodb.net/test?retryWrites=true&w=majority';
 const dbName = 'test';
 const fs = require('fs');
 const formidable = require('formidable');
